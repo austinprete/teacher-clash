@@ -1,0 +1,12 @@
+#title {font-size: 50px; text-align: center; font-family: arial; color: #2d5e04;}
+#or {font-size: 30px; font-family:arial; text-align:center; position:relative; left:22px; float:left;}
+#first {float:left;}
+#second {float:right;}
+#main {margin-right:auto; margin-left:auto; width:300px; height:200px;}
+#images {clear:both;}
+#names {clear:both;}
+#teacher1name {float:left; clear:left;}
+#teacher2name { float:right; clear:right;}
+#link {clear:both;text-align:center;}
+body {background-color: #fff;}
+p, a {font-family: arial;}

@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheets/index.css">
+	</head>
+	<body>
+		<h1 id="title">
+			TEACHER CLASH
+		</h1>
+		<div id="main">
+			<form action="/" method="post" id="images">
+				<button id="first" type="submit" name="teacher1">
+					<img src="images/{{teacher1picture}}" />
+				</button>
+				<p id="or"> OR </p>
+				<button id="second" type="submit" name="teacher2">
+					<img src="images/{{teacher2picture}}" />
+				</button>
+			</form>
+			<p id="teacher1name"> {{teacher1name}} </p>
+			<p id="teacher2name"> {{teacher2name}} </p>
+		</div>
+		<a href="/rankings" id="link">Rankings</a>
+	</body>
+</html>

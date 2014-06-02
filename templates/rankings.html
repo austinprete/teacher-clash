@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheets/rankings.css">
+	</head>
+	<body>
+		<a href="/" id="link">Home</a> 
+		<div id="pictures">
+		{% for teacher in teachers %}
+			<img src="images/{{teacher.picture}}" class="pictures"/>
+			<p>{{teacher.name}} - {{teacher.rating}}</p>
+		{% endfor %}
+		</div>
+	</body>
+</html>
